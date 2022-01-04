@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+.cal {
+  background-color: black;
+  display: inline-block;
+}
+input {
+  background-color: black;
+  width: 401px;
+  height: 155px;
+  border: black;
+  color: white;
+  font-size: 45px;
+  text-align: right;
+}
+
+table {
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding: 15px 15px;
+}
+
+button {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 100%;
+  margin-top: 10px;
+  padding: 20px 31px;
+  border: none;
+  cursor: pointer;
+}
+.orange {
+  color: white;
+  background-color: #ff9900;
+}
+.orange:active {
+  background-color: #a56505;
+  color: black;
+}
+
+.border {
+  width: 166px;
+  border-radius: 100px;
+  background-color: #4d4d4d;
+  color: white;
+}
+.border:active {
+  background-color: #c0bdbdb6;
+}
+
+.light_black {
+  background-color: #4d4d4d;
+  color: white;
+}
+.light_black:active {
+  background-color: #c0bdbdb6;
+}
+.light_white {
+  background-color: #b3b3b3;
+  color: black;
+}
+.light_white:active {
+  background-color: #4d4d4d;
+  color: white;
+}
+body {
+  text-align: center;
+  background: url(../Asserts/wall.jpg) no-repeat center center/cover;
+}
+h1 {
+  font-size: 60px;
+  margin: 10px;
+  padding: 0px;
+}
